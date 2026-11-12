@@ -19,29 +19,3 @@ git commit saves a snapshot of the staged changes in your local repo, with a mes
 
 git push uploads your local commits to GitHub.
 
-How to set it up and use it
-bash
-# One time setup: tell Git who you are
-git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
-
-# Inside your project folder
-git init
-
-# Create a .gitignore file and add things like:
-# node_modules/
-# .env
-
-git add .
-git commit -m "Initial commit: describe what you built"
-
-
-
-git branch -M main
-git push -u origin main
-
-
-bash
-git add .
-git commit -m "Describe the change"
-git push
